@@ -1,0 +1,66 @@
+/* style_jumbotron.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.stylish-jumbotron {
+  background: url('background-image.jpg') no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.jumbo-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.left-jb {
+  text-align: left;
+  margin-left: 20px; /* Memberikan margin kiri agar ada ruang antara gambar dan teks */
+}
+
+.main-heading {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.sub-heading {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.trendy-image {
+  max-width: 40%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.btn-shop-now {
+  display: inline-block;
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn-shop-now:hover {
+  background-color: #ff3300;
+}
